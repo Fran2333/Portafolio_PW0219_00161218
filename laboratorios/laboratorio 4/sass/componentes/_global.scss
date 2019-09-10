@@ -1,0 +1,40 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%; 
+}
+
+.principal{
+    height: 100%;
+    width: 100%;
+    background-image: url(/imagenes/fondo.jpeg);
+background-size: 100% 100%;
+}
+
+button{
+    border:1px solid transparent;
+    border-radius: 0.3em;
+    height:500%;
+    margin:1em 0.5em;
+    font-family: 'Livvic', sans-serif;
+    background-color: #ffd180; 
+  
+}
+button:hover{
+    background-color:#caa052;
+}
+img{
+   display: block;
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+}
+img:hover{
+    width: 120px;
+    height: 120px;   
+     
+        }
