@@ -1,7 +1,7 @@
 function ordenar(lista){
 
     lista.sort(function(a,b){
-    return b-a;
+    return a-b;
     });
     
 console.log(lista);
