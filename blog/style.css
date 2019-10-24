@@ -20,14 +20,20 @@ header{
     height: 15vh;
     color:#ffd180; 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 1.5em;
     font-family: 'Roboto Slab', serif;
 }
 h1{
-    margin:12.16px 0px 0px 0px;
+    
+    margin:12.16px 0px 0px 450px;
 }
-
+.logo{
+  margin: 0px 50px 0px 0px;
+    width: 100px;
+    height: 100px;
+    border-radius:150px;
+}
 .cont{
     display: flex;
     flex-direction: row;
